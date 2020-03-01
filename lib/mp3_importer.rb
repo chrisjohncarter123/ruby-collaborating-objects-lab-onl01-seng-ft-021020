@@ -4,9 +4,7 @@ class MP3Importer
   def initialize(path)
     @path = path
     
-    
   end
-  
   
   def files
     @files = []
@@ -16,8 +14,6 @@ class MP3Importer
 
       @files << "#{filename}"
       
-      
-
     end
     
     return @files
